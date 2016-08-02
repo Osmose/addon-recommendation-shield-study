@@ -28,8 +28,9 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  p {
+  h1, p {
     font-weight: normal;
+    font-size: 1em;
     margin: auto;
     width: 100%;
   }
@@ -75,9 +76,6 @@ body {
 #welcome {
   height: 40px;
   padding: 5px 10px 20px;
-  p {
-    font-weight: normal;
-  }
 }
 
 footer {
